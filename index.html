@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> JS exercise</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="container">
+	  <p>Find Prime numbers Till:</p>
+	  <input type="number" id="numprime" placeholder="Enter a no.">
+      <button onclick="primefun(document.getElementById('numprime').value)">Go</button>
+      <br>
+      <p id="prime"></p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <p>Find Fibonacci series Till:</p>
+	  <input type="number" id="numfib" placeholder="Enter a no.">
+      <button onclick="fibfun(document.getElementById('numfib').value)">Go</button>
+      <br>
+      <p id="fibonacci"></p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <p>Find factorial of:</p>
+	  <input type="number" id="numfact" placeholder="Enter a no.">
+      <button onclick="factfun(document.getElementById('numfact').value)">Go</button>
+      <br>
+      <p id="factorial"></p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <p>Find if Palindrome:</p>
+	  <input type="text" id="pal" placeholder="Enter some text">
+      <button onclick="palfun(document.getElementById('pal').value)">Go</button>
+      <br>
+      <p id="palindrome"></p>
+      <hr>
+    </div>
+
+    <div class="container">
+      <p>Find if Armstrong:</p>
+	  <input type="number" id="armno" placeholder="Enter a no.">
+      <button onclick="armfun(document.getElementById('armno').value)">Go</button>
+      <br>
+      <p id="armstrong"></p>
+      <hr>
+    </div>
+
+    <script type="text/javascript" src="./javascript/prime.js"></script>
+	<script type="text/javascript" src="./javascript/fib.js"></script>
+	<script type="text/javascript" src="./javascript/arm.js"></script>
+	<script type="text/javascript" src="./javascript/fact.js"></script>
+	<script type="text/javascript" src="./javascript/palindrome.js"></script>
+	
+</body>
+
+</html>
